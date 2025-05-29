@@ -161,6 +161,117 @@ if (projectCount === 0) {
       category: "ui",
       status: "published",
     },
+    // 
+    {
+      title: "Restaurant Website Design",
+      description: "Elegant website design for a high-end restaurant with online reservation system.",
+      image_url: "/placeholder.svg?height=300&width=400",
+      tags: "Web Design,UI/UX,Responsive,Food & Beverage",
+      live_url: "https://example.com",
+      figma_url: "https://figma.com/file/example",
+      category: "ui",
+      status: "published",
+    },
+    {
+      title: "Restaurant Website Design",
+      description: "Elegant website design for a high-end restaurant with online reservation system.",
+      image_url: "/placeholder.svg?height=300&width=400",
+      tags: "Web Design,UI/UX,Responsive,Food & Beverage",
+      live_url: "https://example.com",
+      figma_url: "https://figma.com/file/example",
+      category: "ui",
+      status: "published",
+    },
+    {
+      title: "Restaurant Website Design",
+      description: "Elegant website design for a high-end restaurant with online reservation system.",
+      image_url: "/placeholder.svg?height=300&width=400",
+      tags: "Web Design,UI/UX,Responsive,Food & Beverage",
+      live_url: "https://example.com",
+      figma_url: "https://figma.com/file/example",
+      category: "ui",
+      status: "published",
+    },
+    {
+      title: "Restaurant Website Design",
+      description: "Elegant website design for a high-end restaurant with online reservation system.",
+      image_url: "/placeholder.svg?height=300&width=400",
+      tags: "Web Design,UI/UX,Responsive,Food & Beverage",
+      live_url: "https://example.com",
+      figma_url: "https://figma.com/file/example",
+      category: "ui",
+      status: "published",
+    },
+    {
+      title: "Restaurant Website Design",
+      description: "Elegant website design for a high-end restaurant with online reservation system.",
+      image_url: "/placeholder.svg?height=300&width=400",
+      tags: "Web Design,UI/UX,Responsive,Food & Beverage",
+      live_url: "https://example.com",
+      figma_url: "https://figma.com/file/example",
+      category: "ui",
+      status: "published",
+    },
+    {
+      title: "Restaurant Website Design",
+      description: "Elegant website design for a high-end restaurant with online reservation system.",
+      image_url: "/placeholder.svg?height=300&width=400",
+      tags: "Web Design,UI/UX,Responsive,Food & Beverage",
+      live_url: "https://example.com",
+      figma_url: "https://figma.com/file/example",
+      category: "ui",
+      status: "published",
+    },
+    {
+      title: "Restaurant Website Design",
+      description: "Elegant website design for a high-end restaurant with online reservation system.",
+      image_url: "/placeholder.svg?height=300&width=400",
+      tags: "Web Design,UI/UX,Responsive,Food & Beverage",
+      live_url: "https://example.com",
+      figma_url: "https://figma.com/file/example",
+      category: "ui",
+      status: "published",
+    },
+    {
+      title: "Restaurant Website Design",
+      description: "Elegant website design for a high-end restaurant with online reservation system.",
+      image_url: "/placeholder.svg?height=300&width=400",
+      tags: "Web Design,UI/UX,Responsive,Food & Beverage",
+      live_url: "https://example.com",
+      figma_url: "https://figma.com/file/example",
+      category: "ui",
+      status: "published",
+    },
+    {
+      title: "Restaurant Website Design",
+      description: "Elegant website design for a high-end restaurant with online reservation system.",
+      image_url: "/placeholder.svg?height=300&width=400",
+      tags: "Web Design,UI/UX,Responsive,Food & Beverage",
+      live_url: "https://example.com",
+      figma_url: "https://figma.com/file/example",
+      category: "ui",
+      status: "published",
+    },
+    {
+      title: "Restaurant Website Design",
+      description: "Elegant website design for a high-end restaurant with online reservation system.",
+      image_url: "/placeholder.svg?height=300&width=400",
+      tags: "Web Design,UI/UX,Responsive,Food & Beverage",
+      live_url: "https://example.com",
+      figma_url: "https://figma.com/file/example",
+      category: "ui",
+      status: "published",
+    },
+    {
+      title: "Restaurant Website Design",
+      description: "Elegant website design for a high-end restaurant with online reservation system.",
+      image_url: "/placeholder.svg?height=300&width=400",
+      tags: "Web Design,UI/UX,Responsive,Food & Beverage",
+      live_url: "https://example.com",
+      figma_url: "https://figma.com/file/example",
+      category: "ui",
+      status: "published",
+    },
   ]
 
   const insertProject = db.prepare(`
@@ -244,7 +355,17 @@ const skillCategoryCount = db.prepare("SELECT COUNT(*) as count FROM skill_categ
 if (skillCategoryCount === 0) {
   console.log("Inserting sample skills...")
 
-  const sampleSkillCategories = [
+  const skillCategoryNames = [
+    "UI Design",
+    "UX Design",
+    "Design Tools",
+    "Visual Design",
+    "Graphics & Media",
+    "Specialized Design",
+  ] as const
+  type SkillCategoryName = typeof skillCategoryNames[number]
+
+  const sampleSkillCategories: { category: SkillCategoryName; icon: string }[] = [
     { category: "UI Design", icon: "Layout" },
     { category: "UX Design", icon: "UserCheck" },
     { category: "Design Tools", icon: "Figma" },
@@ -263,7 +384,7 @@ if (skillCategoryCount === 0) {
     VALUES (@category_id, @name, @level)
   `)
 
-  const skillsByCategory = {
+  const skillsByCategory: Record<SkillCategoryName, { name: string; level: number }[]> = {
     "UI Design": [
       { name: "Wireframing", level: 95 },
       { name: "Visual Design", level: 95 },
