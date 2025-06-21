@@ -13,7 +13,7 @@
 		"migrate:reset": "prisma migrate reset --force",
 		"migrate:studio": "prisma studio",
 		"seed": "ts-node prisma/seed.ts",
-		"postinstall": "prisma generate && prisma migrate reset --force && ts-node ./prisma/seed"
+		"postinstall": "prisma generate && prisma migrate reset --force && node ./prisma/seed"
 	},
 	"dependencies": {
 		"@hookform/resolvers": "^3.9.1",
