@@ -183,9 +183,35 @@ async function main() {
 			description:
 				"A sophisticated branding design for Polycarp Beauty, featuring a distinctive logo, a harmonious color palette (#6f4e37, #e8d4a2, #f0e6d2), the Gatwick typeface, and elegant product visuals, highlighting a premium skincare and beauty experience.",
 			imageUrl:
+				"https://assets.grok.com/users/53c811ce-fbaa-45c0-8272-c6dc0eb90e25/b41dadf0-7b64-4dcc-89a1-7ad350fa5d2e/content",
+			tags:
+				"Social Media Design, Trenztech, Digital Transformation, Web Development, Mobile Development, Tech Promotion, Fun Facts, Expert Solutions, Graphic Design",
+			liveUrl: "https://example.com",
+			figmaUrl: "https://figma.com/file/example",
+			category: "branding",
+			status: "published",
+		},
+		{
+			title: "Social media designs for TrenzTech",
+			description:
+				"A vibrant collection of social media designs for Trenztech, highlighting digital transformation, innovative web and mobile development, fun facts about the World Wide Web, and expert solutions, designed to engage and attract tech enthusiasts.",
+			imageUrl:
 				"https://assets.grok.com/users/53c811ce-fbaa-45c0-8272-c6dc0eb90e25/4eda9562-b62e-4d75-af52-6012b999b313/content",
 			tags:
-				"Branding,Beauty Brand,Logo Design,Color Palette,Typography,Skincare Products,Premium Design,Polycarp Beauty,Graphic Identity",
+				"Social Media Design, Trenztech, Digital Transformation, Web Development, Mobile Development, Tech Promotion, Fun Facts, Expert Solutions, Graphic Design",
+			liveUrl: "https://example.com",
+			figmaUrl: "https://figma.com/file/example",
+			category: "branding",
+			status: "published",
+		},
+		{
+			title: "Branding for Holdbridge",
+			description:
+				"A modern and cohesive branding design for Holdbridge, featuring a distinctive logo, a vibrant color palette (#28949b, #00343d, #009499), Inter typeface, and versatile merchandise including a water bottle, cap, t-shirt, and digital assets, reflecting a dynamic and professional identity.",
+			imageUrl:
+				"https://assets.grok.com/users/53c811ce-fbaa-45c0-8272-c6dc0eb90e25/130e9e4e-9a23-4edb-b1bc-f0de6e6cc71a/content",
+			tags:
+				"Branding, Logo Design, Holdbridge, Color Palette, Typography, Merchandise Design, Professional Identity, Digital Branding, Modern Design",
 			liveUrl: "https://example.com",
 			figmaUrl: "https://figma.com/file/example",
 			category: "branding",
