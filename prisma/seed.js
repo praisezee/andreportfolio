@@ -23,69 +23,172 @@ async function main() {
 	// Create sample projects
 	const sampleProjects = [
 		{
-			title: "E-Commerce Redesign",
+			title: "Clothing Brand Storefront",
 			description:
-				"Complete UI overhaul for a fashion e-commerce platform with improved user experience and conversion optimization.",
-			imageUrl: "/placeholder.svg?height=300&width=400",
-			tags: "UI Design,E-commerce,Mobile Design,User Flows",
+				"A clothing brand storefront UI design that blends style, elegance, and intuitive shopping experiences. This e-commerce website showcases a sleek interface with featured products, categorized shopping options, and a modern layout, enhancing user engagement and brand presentation.",
+			imageUrl:
+				"https://assets.grok.com/users/53c811ce-fbaa-45c0-8272-c6dc0eb90e25/58ed0afd-5591-4438-a60e-b0d808478c7d/content",
+			tags:
+				"UI Design,E-commerce,Clothing Brand,Web Design,User Experience,Modern Interface,Shopping Platform,Brand Storefront,Intuitive Design",
 			liveUrl: "https://example.com",
 			figmaUrl: "https://figma.com/file/example",
 			category: "ui",
 			status: "published",
 		},
 		{
-			title: "Finance App UI",
+			title: "Mobile Wallet App",
 			description:
-				"Modern mobile banking application with intuitive navigation and clean visual design.",
-			imageUrl: "/placeholder.svg?height=300&width=400",
-			tags: "UI/UX Design,Mobile App,Fintech,Figma",
+				"A sleek and user-friendly mobile wallet app design that simplifies financial management with an intuitive interface, featuring balance tracking, card management, and transaction history for a seamless payment experience.",
+			imageUrl:
+				"https://assets.grok.com/users/53c811ce-fbaa-45c0-8272-c6dc0eb90e25/4c522213-a8ed-4802-9541-8ecdf218e7d0/content",
+			tags:
+				"Mobile Design,Wallet App,Financial Management,User Interface,Payment System,Card Management,Transaction Tracking,App Design,Intuitive Interface",
 			liveUrl: "https://example.com",
 			figmaUrl: "https://figma.com/file/example",
-			category: "mobile",
+			category: "ui",
 			status: "published",
 		},
 		{
-			title: "Brand Identity System",
+			title: "Food Delivery App",
 			description:
-				"Complete brand identity package including logo, color palette, typography and comprehensive guidelines.",
-			imageUrl: "/placeholder.svg?height=300&width=400",
-			tags: "Branding,Logo Design,Visual Identity,Guidelines",
+				"A vibrant and intuitive food app design that offers a seamless ordering experience, featuring a diverse menu, customizable options, and real-time order tracking with customer support integration.",
+			imageUrl:
+				"https://assets.grok.com/users/53c811ce-fbaa-45c0-8272-c6dc0eb90e25/f0341846-de14-4d79-9d85-82bfc97eae54/content",
+			tags:
+				"Food App,Mobile Design,User Interface,Order Tracking,Menu Customization,E-commerce,Food Delivery,Customer Support,App Design",
+			liveUrl: "https://example.com",
+			figmaUrl: "https://figma.com/file/example",
+			category: "ui",
+			status: "published",
+		},
+		{
+			title: "Fintech App",
+			description:
+				"A dynamic fintech app design that provides a streamlined financial management experience, featuring balance tracking, payment options, and a user-friendly interface for seamless transactions and account management.",
+			imageUrl:
+				"https://assets.grok.com/users/53c811ce-fbaa-45c0-8272-c6dc0eb90e25/2c6f3fc6-03f2-4942-8dae-45586050e835/content",
+			tags:
+				"Fintech App,Mobile Design,Financial Management,User Interface,Payment Processing,Balance Tracking,Transaction Management,App Design,User Experience",
+			liveUrl: "https://example.com",
+			figmaUrl: "https://figma.com/file/example",
+			category: "ui",
+			status: "published",
+		},
+		{
+			title: "E-commerce Analytics Dashboard",
+			description:
+				"A versatile desktop UI/UX analytics dashboard design for an e-commerce platform, featuring a modern interface with dark and light themes, offering insights into income, top clients, popular products, and statistical data for effective business monitoring.",
+			imageUrl:
+				"https://assets.grok.com/users/53c811ce-fbaa-45c0-8272-c6dc0eb90e25/bd14ace8-7a8e-42d7-80e1-f283aa09b8c3/content",
+			tags:
+				"UI/UX Design,Analytics Dashboard,E-commerce,Desktop Design,Data Visualization,Theme Switch,Business Insights,User Interface,Dashboard Prototype",
+			liveUrl: "https://example.com",
+			figmaUrl: "https://figma.com/file/example",
+			category: "ui",
+			status: "published",
+		},
+		{
+			title: "Agro-Allied Mobile App",
+			description:
+				"A vibrant mobile UI/UX design for an agro-allied app, offering clear farm data visualizations, climate insights, top-selling products, and seamless ordering with delivery tracking, enhancing agricultural management and customer experience.",
+			imageUrl:
+				"https://assets.grok.com/users/53c811ce-fbaa-45c0-8272-c6dc0eb90e25/5fb49e72-9ed5-4af0-9621-9f60a7a75bdc/content",
+			tags:
+				"Mobile UI/UX,Agro-Allied App,Farm Data,Climate Insights,Product Visualization,E-commerce,Delivery Tracking,Agricultural App,User Experience",
+			liveUrl: "https://example.com",
+			figmaUrl: "https://figma.com/file/example",
+			category: "ui",
+			status: "published",
+		},
+		{
+			title: "Messaging App UI/UX",
+			description:
+				"A sleek mobile UI/UX design for a messaging app, featuring light and dark themes, intuitive chat lists, status updates, call logs, and settings, optimized for seamless communication and user engagement.",
+			imageUrl:
+				"https://assets.grok.com/users/53c811ce-fbaa-45c0-8272-c6dc0eb90e25/55730ec3-698d-4db8-83ba-83830056c688/content",
+			tags:
+				"Mobile UI/UX,Messaging App,Chat Design,Dark Theme,Light Theme,Communication App,User Interface,Status Updates,Call Logs",
+			liveUrl: "https://example.com",
+			figmaUrl: "https://figma.com/file/example",
+			category: "ui",
+			status: "published",
+		},
+		{
+			title: "Online Casino Social Media Designs",
+			description:
+				"A vibrant set of social media designs for an online casino, featuring engaging themes like motivation, trivia, jackpots, and interactive games, designed to attract and retain users with bold visuals and enticing calls to action.",
+			imageUrl:
+				"https://assets.grok.com/users/53c811ce-fbaa-45c0-8272-c6dc0eb90e25/923d92cc-ffd0-470f-82f8-e8204b0f4d53/content",
+			tags:
+				"Social Media Design,Online Casino,Digital Marketing,Graphic Design,Engagement Strategy,Jackpot Promotion,Interactive Ads,Casino Branding,User Attraction",
+			liveUrl: "https://example.com",
+			figmaUrl: "https://figma.com/file/example",
+			category: "ui",
+			status: "published",
+		},
+		{
+			title: "Crypto Trading Social Media Bundle",
+			description:
+				"A dynamic social media design bundle package for a crypto trading brand, featuring engaging visuals for New Year greetings, secure trading promotions, and crypto exchange offers, designed to boost brand presence and attract users.",
+			imageUrl:
+				"https://assets.grok.com/users/53c811ce-fbaa-45c0-8272-c6dc0eb90e25/0338a1e4-5f01-43f2-b069-e666c829a401/content",
+			tags:
+				"Social Media Design,Design Bundle,Crypto Trading,Digital Marketing,Brand Promotion,New Year Campaign,Secure Trading,Crypto Exchange,Graphic Design",
+			liveUrl: "https://example.com",
+			figmaUrl: "https://figma.com/file/example",
+			category: "ui",
+			status: "published",
+		},
+		{
+			title: "Product Promotion Social Media Posts",
+			description:
+				"A diverse set of social media post designs promoting various products and services, including food delivery, milkshakes, organic fruits, new product collections, and investment opportunities, crafted to engage audiences with vibrant visuals and clear calls to action.",
+			imageUrl:
+				"https://assets.grok.com/users/53c811ce-fbaa-45c0-8272-c6dc0eb90e25/85d5f1f9-47b5-4373-a71f-f3f2ac912b4e/content",
+			tags:
+				"Social Media Design,Digital Marketing,Food Delivery,Product Promotion,Organic Food,Investment Ads,Graphic Design,Engagement Strategy,Brand Promotion",
+			liveUrl: "https://example.com",
+			figmaUrl: "https://figma.com/file/example",
+			category: "ui",
+			status: "published",
+		},
+		{
+			title: "Apus Industries Brand Identity",
+			description:
+				"A cohesive brand identity design for Apus Industries Limited, featuring a bold logo, versatile merchandise (water bottle, cap, and t-shirt), and a consistent color scheme with hex #4A8cdc and Montserrat typeface, reflecting a modern and professional aesthetic.",
+			imageUrl:
+				"https://assets.grok.com/users/53c811ce-fbaa-45c0-8272-c6dc0eb90e25/2c978ea9-725b-40a6-91ac-a33b1cc69bcf/content",
+			tags:
+				"Brand Identity,Logo Design,Merchandise Design,Corporate Branding,Color Scheme,Typography,Professional Design,Apus Industries,Modern Aesthetic",
 			liveUrl: "https://example.com",
 			figmaUrl: "https://figma.com/file/example",
 			category: "branding",
 			status: "published",
 		},
 		{
-			title: "Analytics Dashboard",
+			title: "Polycarp Beauty Social Media Designs",
 			description:
-				"Data visualization dashboard with intuitive interface for complex data interpretation.",
-			imageUrl: "/placeholder.svg?height=300&width=400",
-			tags: "UI Design,Dashboard,Data Visualization,Wireframing",
+				"A captivating set of social media designs for Polycarp Beauty, showcasing bold makeup looks, empowering messages, and a portfolio highlight, designed to engage beauty enthusiasts with vibrant visuals and confident branding.",
+			imageUrl:
+				"https://assets.grok.com/users/53c811ce-fbaa-45c0-8272-c6dc0eb90e25/747ed407-e294-4951-8b52-e5d7812467a1/content",
+			tags:
+				"Social Media Design,Beauty Brand,Makeup Promotion,Portfolio Showcase,Brand Engagement,Visual Marketing,Empowerment Ads,Cosmetic Branding,Graphic Design",
 			liveUrl: "https://example.com",
 			figmaUrl: "https://figma.com/file/example",
 			category: "ui",
 			status: "published",
 		},
 		{
-			title: "Fitness App UX Research",
+			title: "Polycarp Beauty Branding",
 			description:
-				"In-depth user research and experience design for health tracking application.",
-			imageUrl: "/placeholder.svg?height=300&width=400",
-			tags: "UX Research,User Flows,Prototyping,UI Design",
+				"A sophisticated branding design for Polycarp Beauty, featuring a distinctive logo, a harmonious color palette (#6f4e37, #e8d4a2, #f0e6d2), the Gatwick typeface, and elegant product visuals, highlighting a premium skincare and beauty experience.",
+			imageUrl:
+				"https://assets.grok.com/users/53c811ce-fbaa-45c0-8272-c6dc0eb90e25/4eda9562-b62e-4d75-af52-6012b999b313/content",
+			tags:
+				"Branding,Beauty Brand,Logo Design,Color Palette,Typography,Skincare Products,Premium Design,Polycarp Beauty,Graphic Identity",
 			liveUrl: "https://example.com",
 			figmaUrl: "https://figma.com/file/example",
-			category: "ux",
-			status: "published",
-		},
-		{
-			title: "Restaurant Website Design",
-			description:
-				"Elegant website design for a high-end restaurant with online reservation system.",
-			imageUrl: "/placeholder.svg?height=300&width=400",
-			tags: "Web Design,UI/UX,Responsive,Food & Beverage",
-			liveUrl: "https://example.com",
-			figmaUrl: "https://figma.com/file/example",
-			category: "ui",
+			category: "branding",
 			status: "published",
 		},
 	];
@@ -161,63 +264,63 @@ async function main() {
 	// Create skill categories and skills
 	const skillCategories = [
 		{
-			category: "UI Design",
-			icon: "Layout",
+			category: "Graphics & Media",
+			icon: "Image",
 			skills: [
-				{ name: "Wireframing", level: 95 },
-				{ name: "Visual Design", level: 95 },
-				{ name: "Prototyping", level: 90 },
-				{ name: "Component Systems", level: 92 },
+				{ name: "Digital Illustration", level: 85 },
+				{ name: "Mockup Designs", level: 90 },
+				{ name: "Logo Designs & Branding", level: 92 },
+				{ name: "Social Media Graphics", level: 95 },
 			],
 		},
 		{
-			category: "UX Design",
-			icon: "UserCheck",
+			category: "UI/UX Design",
+			icon: "Layout",
 			skills: [
-				{ name: "User Research", level: 88 },
-				{ name: "Usability Testing", level: 85 },
-				{ name: "Information Architecture", level: 90 },
-				{ name: "User Flows", level: 92 },
+				{ name: "Wireframing", level: 88 },
+				{ name: "Prototyping", level: 90 },
+				{ name: "User Interface Design", level: 93 },
+				{ name: "User Experience Research", level: 87 },
+			],
+		},
+		{
+			category: "Specialized Designs",
+			icon: "Monitor",
+			skills: [
+				{ name: "Landing Page Design", level: 92 },
+				{ name: "E-commerce Websites", level: 89 },
+				{ name: "Fintech & Banking Apps", level: 91 },
+				{ name: "Web3 & Crypto Payments", level: 87 },
+			],
+		},
+		{
+			category: "Brand Identity",
+			icon: "Palette",
+			skills: [
+				{ name: "Brand Guidelines Creation", level: 91 },
+				{ name: "Typography Selection", level: 89 },
+				{ name: "Color Palette Development", level: 93 },
+				{ name: "Visual Identity Systems", level: 90 },
+			],
+		},
+		{
+			category: "Digital Marketing Assets",
+			icon: "Megaphone",
+			skills: [
+				{ name: "Banner Ad Design", level: 88 },
+				{ name: "Email Campaign Graphics", level: 86 },
+				{ name: "Infographic Design", level: 90 },
+				{ name: "Presentation Design", level: 87 },
 			],
 		},
 		{
 			category: "Design Tools",
-			icon: "Figma",
+			icon: "Tool",
 			skills: [
+				{ name: "Canva", level: 92 },
+				{ name: "Photoshop", level: 90 },
 				{ name: "Figma", level: 95 },
-				{ name: "Canva", level: 95 },
-				{ name: "Adobe Photoshop", level: 90 },
-				{ name: "Adobe Illustrator", level: 85 },
-			],
-		},
-		{
-			category: "Graphic Design",
-			icon: "Palette",
-			skills: [
-				{ name: "Typography", level: 92 },
-				{ name: "Color Theory", level: 95 },
-				{ name: "Layout & Composition", level: 90 },
-				{ name: "Brand Identity", level: 88 },
-			],
-		},
-		{
-			category: "Graphics & Media",
-			icon: "ImageIcon",
-			skills: [
-				{ name: "Digital Illustration", level: 85 },
-				{ name: "Photo Editing", level: 90 },
-				{ name: "Logo Design", level: 92 },
-				{ name: "Print Design", level: 88 },
-			],
-		},
-		{
-			category: "Digital Design",
-			icon: "Lightbulb",
-			skills: [
-				{ name: "Web Graphics", level: 90 },
-				{ name: "Responsive Design", level: 95 },
-				{ name: "Design Systems", level: 88 },
-				{ name: "Social Media Design", level: 92 },
+				{ name: "Other AI Tools", level: 88 },
 			],
 		},
 	];
