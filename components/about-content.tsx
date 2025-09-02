@@ -11,7 +11,7 @@ export function AboutContent() {
           <div className="mb-12">
             <h2 className="text-3xl font-bold mb-6 text-gray-900 dark:text-white">About Me</h2>
             <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-4">
-              I'm Andre Pascal, a passionate UI/UX designer with over 10 years of experience as a graphic designer. My
+              I'm Andre Pascal, a passionate UI/UX designer with over 5 years of experience as a graphic designer. My
               career started with creating stunning visuals using Photoshop and Canva, but I've since transitioned into
               designing user-centered digital experiences with Figma. At Andre's Creation, I combine my graphic design
               expertise with modern UI/UX practices to craft intuitive and impactful solutions.
