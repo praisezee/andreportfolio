@@ -72,7 +72,7 @@ export function Contact() {
                 {
                   icon: MapPin,
                   title: "Location",
-                  content: "San Francisco, CA",
+                  content: "Lagos, Nigeria",
                   href: "#",
                 },
               ].map((item) => (
