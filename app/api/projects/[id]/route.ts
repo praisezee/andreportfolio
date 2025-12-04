@@ -3,7 +3,7 @@ import { projectStore } from "@/lib/data-store"
 
 export async function GET(request: NextRequest, { params }: { params: { id: string } }) {
   try {
-    const id = Number.parseInt(params.id)
+    const id = params.id
     const project = await projectStore.findUnique(id)
 
     if (!project) {
@@ -18,7 +18,7 @@ export async function GET(request: NextRequest, { params }: { params: { id: stri
 
 export async function PUT(request: NextRequest, { params }: { params: { id: string } }) {
   try {
-    const id = Number.parseInt(params.id)
+    const id = params.id
     const data = await request.json()
 
     const project = await projectStore.update(id, {
@@ -40,7 +40,7 @@ export async function PUT(request: NextRequest, { params }: { params: { id: stri
 
 export async function DELETE(request: NextRequest, { params }: { params: { id: string } }) {
   try {
-    const id = Number.parseInt(params.id)
+    const id = params.id
     await projectStore.delete(id)
 
     return NextResponse.json({ message: "Project deleted successfully" })

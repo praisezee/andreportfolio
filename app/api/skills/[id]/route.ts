@@ -3,7 +3,7 @@ import { skillStore } from "@/lib/data-store"
 
 export async function GET(request: NextRequest, { params }: { params: { id: string } }) {
   try {
-    const id = Number.parseInt(params.id)
+    const id = params.id
     const skill = await skillStore.findUnique(id)
 
     if (!skill) {
@@ -18,7 +18,7 @@ export async function GET(request: NextRequest, { params }: { params: { id: stri
 
 export async function PUT(request: NextRequest, { params }: { params: { id: string } }) {
   try {
-    const id = Number.parseInt(params.id)
+    const id = params.id
     const data = await request.json()
 
     const skill = await skillStore.update(id, {
@@ -35,7 +35,7 @@ export async function PUT(request: NextRequest, { params }: { params: { id: stri
 
 export async function DELETE(request: NextRequest, { params }: { params: { id: string } }) {
   try {
-    const id = Number.parseInt(params.id)
+    const id = params.id
     await skillStore.delete(id)
 
     return NextResponse.json({ message: "Skill deleted successfully" })

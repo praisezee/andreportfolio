@@ -3,7 +3,7 @@ import { testimonialStore } from "@/lib/data-store"
 
 export async function GET(request: NextRequest, { params }: { params: { id: string } }) {
   try {
-    const id = Number.parseInt(params.id)
+    const id = params.id
     const testimonial = await testimonialStore.findUnique(id)
 
     if (!testimonial) {
@@ -18,7 +18,7 @@ export async function GET(request: NextRequest, { params }: { params: { id: stri
 
 export async function PUT(request: NextRequest, { params }: { params: { id: string } }) {
   try {
-    const id = Number.parseInt(params.id)
+    const id = params.id
     const data = await request.json()
 
     const testimonial = await testimonialStore.update(id, {
@@ -37,7 +37,7 @@ export async function PUT(request: NextRequest, { params }: { params: { id: stri
 
 export async function DELETE(request: NextRequest, { params }: { params: { id: string } }) {
   try {
-    const id = Number.parseInt(params.id)
+    const id = params.id
     await testimonialStore.delete(id)
 
     return NextResponse.json({ message: "Testimonial deleted successfully" })

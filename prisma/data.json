@@ -1,0 +1,547 @@
+{
+	"skill_categories": [
+		{
+			"id": 2,
+			"category": "UI/UX Design",
+			"icon": "Layout",
+			"created_at": "2025-07-29T13:56:12.914Z",
+			"updated_at": "2025-07-29T13:56:12.914Z"
+		},
+		{
+			"id": 4,
+			"category": "Brand Identity",
+			"icon": "Palette",
+			"created_at": "2025-07-29T13:56:14.569Z",
+			"updated_at": "2025-07-29T13:56:14.569Z"
+		},
+		{
+			"id": 6,
+			"category": "Design Tools",
+			"icon": "Figma",
+			"created_at": "2025-07-29T13:56:16.237Z",
+			"updated_at": "2025-09-02T16:06:10.347Z"
+		},
+		{
+			"id": 3,
+			"category": "Specialized Designs",
+			"icon": "UserCheck",
+			"created_at": "2025-07-29T13:56:13.739Z",
+			"updated_at": "2025-09-02T16:06:57.366Z"
+		},
+		{
+			"id": 1,
+			"category": "Graphics & Media",
+			"icon": "ImageIcon",
+			"created_at": "2025-07-29T13:56:12.084Z",
+			"updated_at": "2025-09-02T16:07:42.281Z"
+		},
+		{
+			"id": 5,
+			"category": "Digital Marketing Assets",
+			"icon": "Lightbulb",
+			"created_at": "2025-07-29T13:56:15.411Z",
+			"updated_at": "2025-09-02T16:08:00.278Z"
+		}
+	],
+	"skills": [
+		{
+			"id": 5,
+			"name": "Wireframing",
+			"level": 88,
+			"category_id": 2,
+			"created_at": "2025-07-29T13:56:12.914Z",
+			"updated_at": "2025-07-29T13:56:12.914Z"
+		},
+		{
+			"id": 6,
+			"name": "Prototyping",
+			"level": 90,
+			"category_id": 2,
+			"created_at": "2025-07-29T13:56:12.914Z",
+			"updated_at": "2025-07-29T13:56:12.914Z"
+		},
+		{
+			"id": 7,
+			"name": "User Interface Design",
+			"level": 93,
+			"category_id": 2,
+			"created_at": "2025-07-29T13:56:12.914Z",
+			"updated_at": "2025-07-29T13:56:12.914Z"
+		},
+		{
+			"id": 8,
+			"name": "User Experience Research",
+			"level": 87,
+			"category_id": 2,
+			"created_at": "2025-07-29T13:56:12.914Z",
+			"updated_at": "2025-07-29T13:56:12.914Z"
+		},
+		{
+			"id": 13,
+			"name": "Brand Guidelines Creation",
+			"level": 91,
+			"category_id": 4,
+			"created_at": "2025-07-29T13:56:14.569Z",
+			"updated_at": "2025-07-29T13:56:14.569Z"
+		},
+		{
+			"id": 14,
+			"name": "Typography Selection",
+			"level": 89,
+			"category_id": 4,
+			"created_at": "2025-07-29T13:56:14.569Z",
+			"updated_at": "2025-07-29T13:56:14.569Z"
+		},
+		{
+			"id": 15,
+			"name": "Color Palette Development",
+			"level": 93,
+			"category_id": 4,
+			"created_at": "2025-07-29T13:56:14.569Z",
+			"updated_at": "2025-07-29T13:56:14.569Z"
+		},
+		{
+			"id": 16,
+			"name": "Visual Identity Systems",
+			"level": 90,
+			"category_id": 4,
+			"created_at": "2025-07-29T13:56:14.569Z",
+			"updated_at": "2025-07-29T13:56:14.569Z"
+		},
+		{
+			"id": 25,
+			"name": "Canva",
+			"level": 92,
+			"category_id": 6,
+			"created_at": "2025-09-02T16:06:10.347Z",
+			"updated_at": "2025-09-02T16:06:10.347Z"
+		},
+		{
+			"id": 26,
+			"name": "Photoshop",
+			"level": 90,
+			"category_id": 6,
+			"created_at": "2025-09-02T16:06:10.347Z",
+			"updated_at": "2025-09-02T16:06:10.347Z"
+		},
+		{
+			"id": 27,
+			"name": "Figma",
+			"level": 95,
+			"category_id": 6,
+			"created_at": "2025-09-02T16:06:10.347Z",
+			"updated_at": "2025-09-02T16:06:10.347Z"
+		},
+		{
+			"id": 28,
+			"name": "Other AI Tools",
+			"level": 88,
+			"category_id": 6,
+			"created_at": "2025-09-02T16:06:10.347Z",
+			"updated_at": "2025-09-02T16:06:10.347Z"
+		},
+		{
+			"id": 33,
+			"name": "Landing Page Design",
+			"level": 92,
+			"category_id": 3,
+			"created_at": "2025-09-02T16:06:57.366Z",
+			"updated_at": "2025-09-02T16:06:57.366Z"
+		},
+		{
+			"id": 34,
+			"name": "E-commerce Websites",
+			"level": 89,
+			"category_id": 3,
+			"created_at": "2025-09-02T16:06:57.366Z",
+			"updated_at": "2025-09-02T16:06:57.366Z"
+		},
+		{
+			"id": 35,
+			"name": "Fintech & Banking Apps",
+			"level": 91,
+			"category_id": 3,
+			"created_at": "2025-09-02T16:06:57.366Z",
+			"updated_at": "2025-09-02T16:06:57.366Z"
+		},
+		{
+			"id": 36,
+			"name": "Web3 & Crypto Payments",
+			"level": 87,
+			"category_id": 3,
+			"created_at": "2025-09-02T16:06:57.366Z",
+			"updated_at": "2025-09-02T16:06:57.366Z"
+		},
+		{
+			"id": 41,
+			"name": "Digital Illustration",
+			"level": 85,
+			"category_id": 1,
+			"created_at": "2025-09-02T16:07:42.281Z",
+			"updated_at": "2025-09-02T16:07:42.281Z"
+		},
+		{
+			"id": 42,
+			"name": "Mockup Designs",
+			"level": 90,
+			"category_id": 1,
+			"created_at": "2025-09-02T16:07:42.281Z",
+			"updated_at": "2025-09-02T16:07:42.281Z"
+		},
+		{
+			"id": 43,
+			"name": "Logo Designs & Branding",
+			"level": 92,
+			"category_id": 1,
+			"created_at": "2025-09-02T16:07:42.281Z",
+			"updated_at": "2025-09-02T16:07:42.281Z"
+		},
+		{
+			"id": 44,
+			"name": "Social Media Graphics",
+			"level": 95,
+			"category_id": 1,
+			"created_at": "2025-09-02T16:07:42.281Z",
+			"updated_at": "2025-09-02T16:07:42.281Z"
+		},
+		{
+			"id": 45,
+			"name": "Banner Ad Design",
+			"level": 88,
+			"category_id": 5,
+			"created_at": "2025-09-02T16:08:00.278Z",
+			"updated_at": "2025-09-02T16:08:00.278Z"
+		},
+		{
+			"id": 46,
+			"name": "Email Campaign Graphics",
+			"level": 86,
+			"category_id": 5,
+			"created_at": "2025-09-02T16:08:00.278Z",
+			"updated_at": "2025-09-02T16:08:00.278Z"
+		},
+		{
+			"id": 47,
+			"name": "Infographic Design",
+			"level": 90,
+			"category_id": 5,
+			"created_at": "2025-09-02T16:08:00.278Z",
+			"updated_at": "2025-09-02T16:08:00.278Z"
+		},
+		{
+			"id": 48,
+			"name": "Presentation Design",
+			"level": 87,
+			"category_id": 5,
+			"created_at": "2025-09-02T16:08:00.278Z",
+			"updated_at": "2025-09-02T16:08:00.278Z"
+		}
+	],
+	"users": [
+		{
+			"id": 1,
+			"username": "admin",
+			"password": "$2b$12$mEY70TdgM3I5gwKitH0.Uu0lJ5BtHmYoYcZ2UQaxp6SjlQccUyhRC",
+			"created_at": "2025-07-29T13:56:01.565Z",
+			"updated_at": "2025-07-29T13:56:01.565Z"
+		}
+	],
+	"projects": [
+		{
+			"id": 11,
+			"title": "Apus Industries Brand Identity",
+			"description": "A cohesive brand identity design for Apus Industries Limited, featuring a bold logo, versatile merchandise (water bottle, cap, and t-shirt), and a consistent color scheme with hex #4A8cdc and Montserrat typeface, reflecting a modern and professional aesthetic.",
+			"image_url": "https://res.cloudinary.com/doyk6fhzm/image/upload/v1754304616/portfolio/mmcm2ctywsffyppqqvda.jpg",
+			"tags": "Brand Identity,Logo Design,Merchandise Design,Corporate Branding,Color Scheme,Typography,Professional Design,Apus Industries,Modern Aesthetic",
+			"live_url": "https://www.canva.com/design/DAGo2wdeQdU/ZtiQIhkto6DZ5-azAdYP1w/view?utm_content=DAGo2wdeQdU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he5eab147e6",
+			"figma_url": "https://www.canva.com/design/DAGo2wdeQdU/ZtiQIhkto6DZ5-azAdYP1w/view?utm_content=DAGo2wdeQdU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he5eab147e6",
+			"category": "branding",
+			"status": "published",
+			"created_at": "2025-07-29T13:56:07.032Z",
+			"updated_at": "2025-08-04T10:50:17.272Z"
+		},
+		{
+			"id": 9,
+			"title": "Crypto Trading Social Media Bundle",
+			"description": "A dynamic social media design bundle package for a crypto trading brand, featuring engaging visuals for New Year greetings, secure trading promotions, and crypto exchange offers, designed to boost brand presence and attract users.",
+			"image_url": "https://res.cloudinary.com/doyk6fhzm/image/upload/v1754304817/portfolio/juw5ablbyeudlmunz60f.png",
+			"tags": "Social Media Design,Design Bundle,Crypto Trading,Digital Marketing,Brand Promotion,New Year Campaign,Secure Trading,Crypto Exchange,Graphic Design",
+			"live_url": "https://www.canva.com/design/DAGq6V3huoI/T3nKKqg8nvatx4tOWOUKkg/watch?utm_content=DAGq6V3huoI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha1a8b4ed27",
+			"figma_url": "https://www.canva.com/design/DAGq6V3huoI/T3nKKqg8nvatx4tOWOUKkg/watch?utm_content=DAGq6V3huoI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha1a8b4ed27",
+			"category": "mobile",
+			"status": "published",
+			"created_at": "2025-07-29T13:56:06.084Z",
+			"updated_at": "2025-08-04T10:53:38.898Z"
+		},
+		{
+			"id": 8,
+			"title": "Online Casino Social Media Designs",
+			"description": "A vibrant set of social media designs for an online casino, featuring engaging themes like motivation, trivia, jackpots, and interactive games, designed to attract and retain users with bold visuals and enticing calls to action.",
+			"image_url": "https://res.cloudinary.com/doyk6fhzm/image/upload/v1754304914/portfolio/tgttrrwxipbs64b6hmea.jpg",
+			"tags": "Social Media Design,Online Casino,Digital Marketing,Graphic Design,Engagement Strategy,Jackpot Promotion,Interactive Ads,Casino Branding,User Attraction",
+			"live_url": "https://www.canva.com/design/DAGq6YshzR0/vJhdD9e6xANvfeJr_NQ-KA/view?utm_content=DAGq6YshzR0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h288291dfcf",
+			"figma_url": "https://www.canva.com/design/DAGq6YshzR0/vJhdD9e6xANvfeJr_NQ-KA/view?utm_content=DAGq6YshzR0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h288291dfcf",
+			"category": "mobile",
+			"status": "published",
+			"created_at": "2025-07-29T13:56:05.626Z",
+			"updated_at": "2025-08-04T10:55:15.197Z"
+		},
+		{
+			"id": 7,
+			"title": "Messaging App UI/UX",
+			"description": "A sleek mobile UI/UX design for a messaging app, featuring light and dark themes, intuitive chat lists, status updates, call logs, and settings, optimized for seamless communication and user engagement.",
+			"image_url": "https://res.cloudinary.com/doyk6fhzm/image/upload/v1754305137/portfolio/wqrtcrohnstritakb7st.png",
+			"tags": "Mobile UI/UX,Messaging App,Chat Design,Dark Theme,Light Theme,Communication App,User Interface,Status Updates,Call Logs",
+			"live_url": "https://www.canva.com/design/DAGo3MH3q-c/jEKVhrBwvU5hbOK6MLXO3A/watch?utm_content=DAGo3MH3q-c&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h22a48bc276",
+			"figma_url": "https://rb.gy/ohuhxj",
+			"category": "ui",
+			"status": "published",
+			"created_at": "2025-07-29T13:56:05.166Z",
+			"updated_at": "2025-08-04T10:58:58.876Z"
+		},
+		{
+			"id": 5,
+			"title": "E-commerce Analytics Dashboard",
+			"description": "A versatile desktop UI/UX analytics dashboard design for an e-commerce platform, featuring a modern interface with dark and light themes, offering insights into income, top clients, popular products, and statistical data for effective business monitoring.",
+			"image_url": "https://res.cloudinary.com/doyk6fhzm/image/upload/v1754305695/portfolio/zk3rtxko1j9s8nrrmej1.png",
+			"tags": "UI/UX Design,Analytics Dashboard,E-commerce,Desktop Design,Data Visualization,Theme Switch,Business Insights,User Interface,Dashboard Prototype",
+			"live_url": "https://www.canva.com/design/DAGo2q158FY/Ffw7J_RdbapNeQSDpMEndA/view?utm_content=DAGo2q158FY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5546a24d01",
+			"figma_url": "https://www.canva.com/design/DAGo2q158FY/Ffw7J_RdbapNeQSDpMEndA/view?utm_content=DAGo2q158FY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5546a24d01",
+			"category": "ui",
+			"status": "published",
+			"created_at": "2025-07-29T13:56:04.243Z",
+			"updated_at": "2025-08-04T11:08:16.983Z"
+		},
+		{
+			"id": 4,
+			"title": "Fintech App",
+			"description": "A dynamic fintech app design that provides a streamlined financial management experience, featuring balance tracking, payment options, and a user-friendly interface for seamless transactions and account management.",
+			"image_url": "https://res.cloudinary.com/doyk6fhzm/image/upload/v1754306015/portfolio/eoitgouqljtphveieezg.png",
+			"tags": "Fintech App,Mobile Design,Financial Management,User Interface,Payment Processing,Balance Tracking,Transaction Management,App Design,User Experience",
+			"live_url": "https://www.figma.com/proto/BDWIpJtmdZ7VBJ485V4lYB/Fintech-App?node-id=21-1168&t=1qTWVvZA4lL18fd1-1",
+			"figma_url": "https://www.figma.com/proto/BDWIpJtmdZ7VBJ485V4lYB/Fintech-App?node-id=21-1168&t=1qTWVvZA4lL18fd1-1",
+			"category": "ui",
+			"status": "published",
+			"created_at": "2025-07-29T13:56:03.784Z",
+			"updated_at": "2025-08-04T11:13:36.785Z"
+		},
+		{
+			"id": 3,
+			"title": "Food Delivery App",
+			"description": "A vibrant and intuitive food app design that offers a seamless ordering experience, featuring a diverse menu, customizable options, and real-time order tracking with customer support integration.",
+			"image_url": "https://res.cloudinary.com/doyk6fhzm/image/upload/v1754306505/portfolio/vzsd3oc1jxtcr1x169rt.png",
+			"tags": "Food App,Mobile Design,User Interface,Order Tracking,Menu Customization,E-commerce,Food Delivery,Customer Support,App Design",
+			"live_url": "https://www.figma.com/proto/tfqSPe4mXxDLeIptJhThzM/Food-App-Design-UI-Template--Andre-?node-id=1-499&t=1qTWVvZA4lL18fd1-1",
+			"figma_url": "https://www.figma.com/proto/tfqSPe4mXxDLeIptJhThzM/Food-App-Design-UI-Template--Andre-?node-id=1-499&t=1qTWVvZA4lL18fd1-1",
+			"category": "ui",
+			"status": "published",
+			"created_at": "2025-07-29T13:56:03.326Z",
+			"updated_at": "2025-08-04T11:21:48.427Z"
+		},
+		{
+			"id": 1,
+			"title": "Clothing Brand Storefront",
+			"description": "A clothing brand storefront UI design that blends style, elegance, and intuitive shopping experiences. This e-commerce website showcases a sleek interface with featured products, categorized shopping options, and a modern layout, enhancing user engagement and brand presentation.",
+			"image_url": "https://res.cloudinary.com/doyk6fhzm/image/upload/v1754307306/portfolio/aqverjkwxpqiurwlgpww.png",
+			"tags": "UI Design,E-commerce,Clothing Brand,Web Design,User Experience,Modern Interface,Shopping Platform,Brand Storefront,Intuitive Design",
+			"live_url": "https://www.canva.com/design/DAGo38oZV4w/KphYOhhpK7Ux4QLsB17wtQ/view?utm_content=DAGo38oZV4w&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hcf21a046d7",
+			"figma_url": "https://www.figma.com/proto/v9uUAulSd3csNG0KastMgt?node-id=0-1&t=rRBkJbgXbfnV4DwZ-6",
+			"category": "ux",
+			"status": "published",
+			"created_at": "2025-07-29T13:56:02.400Z",
+			"updated_at": "2025-08-04T11:35:10.250Z"
+		},
+		{
+			"id": 14,
+			"title": "Social media designs for TrenzTech",
+			"description": "A vibrant collection of social media designs for Trenztech, highlighting digital transformation, innovative web and mobile development, fun facts about the World Wide Web, and expert solutions, designed to engage and attract tech enthusiasts.",
+			"image_url": "https://res.cloudinary.com/doyk6fhzm/image/upload/v1754302987/portfolio/lawv28iltn6abexnshqq.jpg",
+			"tags": "Social Media Design, Trenztech, Digital Transformation, Web Development, Mobile Development, Tech Promotion, Fun Facts, Expert Solutions, Graphic Design",
+			"live_url": "https://www.canva.com/design/DAGvGhgZrRc/9nF9Yyt4T_FWaCaRM2e8WA/view?utm_content=DAGvGhgZrRc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6831aac4a8",
+			"figma_url": "https://www.canva.com/design/DAGvGhgZrRc/9nF9Yyt4T_FWaCaRM2e8WA/view?utm_content=DAGvGhgZrRc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6831aac4a8",
+			"category": "branding",
+			"status": "published",
+			"created_at": "2025-07-29T13:56:08.413Z",
+			"updated_at": "2025-08-04T10:23:10.686Z"
+		},
+		{
+			"id": 13,
+			"title": "Polycarp Beauty Branding",
+			"description": "A sophisticated branding design for Polycarp Beauty, featuring a distinctive logo, a harmonious color palette (#6f4e37, #e8d4a2, #f0e6d2), the Gatwick typeface, and elegant product visuals, highlighting a premium skincare and beauty experience.",
+			"image_url": "https://res.cloudinary.com/doyk6fhzm/image/upload/v1754303326/portfolio/eriqj9wahlsvzdh0ihrq.jpg",
+			"tags": "Branding, Beauty Brand, Logo Design, Color Palette, Typography, Skincare Products, Premium Design, Polycarp Beauty, Graphic Identity",
+			"live_url": "https://www.canva.com/design/DAGraYtCETY/DpLXhz9S_UhuEsysM-i6oQ/view?utm_content=DAGraYtCETY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h37d99bcb3e",
+			"figma_url": "https://www.canva.com/design/DAGraYtCETY/DpLXhz9S_UhuEsysM-i6oQ/view?utm_content=DAGraYtCETY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h37d99bcb3e",
+			"category": "branding",
+			"status": "published",
+			"created_at": "2025-07-29T13:56:07.950Z",
+			"updated_at": "2025-08-04T10:28:47.676Z"
+		},
+		{
+			"id": 10,
+			"title": "Product Promotion Social Media Posts",
+			"description": "A diverse set of social media post designs promoting various products and services, including food delivery, milkshakes, organic fruits, new product collections, and investment opportunities, crafted to engage audiences with vibrant visuals and clear calls to action.",
+			"image_url": "https://res.cloudinary.com/doyk6fhzm/image/upload/v1754304721/portfolio/bmzildwbx6cyxitelmt5.png",
+			"tags": "Social Media Design,Digital Marketing,Food Delivery,Product Promotion,Organic Food,Investment Ads,Graphic Design,Engagement Strategy,Brand Promotion",
+			"live_url": "https://www.canva.com/design/DAGq5d47Kes/YfQJMX_NwSARv9SnEC9qTw/view?utm_content=DAGq5d47Kes&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha2abd87490",
+			"figma_url": "https://www.canva.com/design/DAGq5d47Kes/YfQJMX_NwSARv9SnEC9qTw/view?utm_content=DAGq5d47Kes&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha2abd87490",
+			"category": "mobile",
+			"status": "published",
+			"created_at": "2025-07-29T13:56:06.543Z",
+			"updated_at": "2025-08-04T10:52:02.540Z"
+		},
+		{
+			"id": 6,
+			"title": "Agro-Allied Mobile App",
+			"description": "A vibrant mobile UI/UX design for an agro-allied app, offering clear farm data visualizations, climate insights, top-selling products, and seamless ordering with delivery tracking, enhancing agricultural management and customer experience.",
+			"image_url": "https://res.cloudinary.com/doyk6fhzm/image/upload/v1754305365/portfolio/nn7chi7638axd4kkjfes.png",
+			"tags": "Mobile UI/UX,Agro-Allied App,Farm Data,Climate Insights,Product Visualization,E-commerce,Delivery Tracking,Agricultural App,User Experience",
+			"live_url": "https://www.canva.com/design/DAGo2ySkBpQ/briLMfCgGz1SGdgpOnamOA/view?utm_content=DAGo2ySkBpQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6a94cacf38",
+			"figma_url": "https://www.figma.com/proto/pfFlzf736Kn8NPUIiISlcP/andrescreation?node-id=21-3&t=0T6giPSHgpvPViCa-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=21%3A3",
+			"category": "ux",
+			"status": "published",
+			"created_at": "2025-07-29T13:56:04.708Z",
+			"updated_at": "2025-08-04T11:02:46.106Z"
+		},
+		{
+			"id": 15,
+			"title": "Branding for Holdbridge",
+			"description": "A modern and cohesive branding design for Holdbridge, featuring a distinctive logo, a vibrant color palette (#28949b, #00343d, #009499), Inter typeface, and versatile merchandise including a water bottle, cap, t-shirt, and digital assets, reflecting a dynamic and professional identity.",
+			"image_url": "https://res.cloudinary.com/doyk6fhzm/image/upload/v1754304274/portfolio/gtmr7v5olbheoeegrdjy.png",
+			"tags": "Branding, Logo Design, Holdbridge, Color Palette, Typography, Merchandise Design, Professional Identity, Digital Branding, Modern Design",
+			"live_url": "https://www.canva.com/design/DAGvGp-1rNA/tTaTKTi9T3XH4r9ZNoUMow/view?utm_content=DAGvGp-1rNA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb154a77372",
+			"figma_url": "https://www.canva.com/design/DAGvGp-1rNA/tTaTKTi9T3XH4r9ZNoUMow/view?utm_content=DAGvGp-1rNA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb154a77372",
+			"category": "branding",
+			"status": "published",
+			"created_at": "2025-07-29T13:56:08.872Z",
+			"updated_at": "2025-08-04T10:44:35.110Z"
+		},
+		{
+			"id": 12,
+			"title": "Polycarp Beauty Social Media Designs",
+			"description": "A captivating set of social media designs for Polycarp Beauty, showcasing bold makeup looks, empowering messages, and a portfolio highlight, designed to engage beauty enthusiasts with vibrant visuals and confident branding.",
+			"image_url": "https://res.cloudinary.com/doyk6fhzm/image/upload/v1754304467/portfolio/fvuoi6beh0ekgaeyfrcf.jpg",
+			"tags": "Social Media Design,Beauty Brand,Makeup Promotion,Portfolio Showcase,Brand Engagement,Visual Marketing,Empowerment Ads,Cosmetic Branding,Graphic Design",
+			"live_url": "https://www.canva.com/design/DAGraIUk-uE/GeYqUBIwjibMWax2vhhflg/view?utm_content=DAGraIUk-uE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h058eb03b1a",
+			"figma_url": "https://www.canva.com/design/DAGraIUk-uE/GeYqUBIwjibMWax2vhhflg/view?utm_content=DAGraIUk-uE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h058eb03b1a",
+			"category": "branding",
+			"status": "published",
+			"created_at": "2025-07-29T13:56:07.491Z",
+			"updated_at": "2025-08-04T10:47:48.376Z"
+		},
+		{
+			"id": 2,
+			"title": "Mobile Wallet App",
+			"description": "A sleek and user-friendly mobile wallet app design that simplifies financial management with an intuitive interface, featuring balance tracking, card management, and transaction history for a seamless payment experience.",
+			"image_url": "https://res.cloudinary.com/doyk6fhzm/image/upload/v1754306976/portfolio/tmnu0luodlasffjm5iv2.png",
+			"tags": "Mobile Design,Wallet App,Financial Management,User Interface,Payment System,Card Management,Transaction Tracking,App Design,Intuitive Interface",
+			"live_url": "https://www.figma.com/proto/imsoUz2oNnW0q1y97ELOMO/Wallet-App?node-id=36-197&p=f&t=77L0GQDUO0nQpGo5-1&scaling=min-zoom&content-scaling=fixed&page-id=36%3A196&starting-point-node-id=36%3A197",
+			"figma_url": "https://www.figma.com/proto/imsoUz2oNnW0q1y97ELOMO/Wallet-App?node-id=36-197&p=f&t=77L0GQDUO0nQpGo5-1&scaling=min-zoom&content-scaling=fixed&page-id=36%3A196&starting-point-node-id=36%3A197",
+			"category": "ui",
+			"status": "published",
+			"created_at": "2025-07-29T13:56:02.867Z",
+			"updated_at": "2025-08-04T11:29:39.122Z"
+		},
+		{
+			"id": 16,
+			"title": "Branding for Mettawork",
+			"description": "A striking branding design for Mettawork, featuring a bold logo, a cohesive blue color scheme, Nasalization Regular typeface, and a range of merchandise including a smartwatch, t-shirt, tag, phone case, and tote bag, embodying a modern and tech-savvy identity.",
+			"image_url": "https://res.cloudinary.com/doyk6fhzm/image/upload/v1754929571/portfolio/wt1iw7lfmu3ht6c6tkif.jpg",
+			"tags": "Branding, Logo Design, Mettawork, Color Scheme, Typography, Merchandise Design, Tech Branding, Modern Identity, Graphic Design",
+			"live_url": "https://www.canva.com/design/DAGvx9Afafg/j0aAwSCLLazWHZHmxITqpg/view?utm_content=DAGvx9Afafg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha483407058",
+			"figma_url": "https://www.canva.com/design/DAGvx9Afafg/j0aAwSCLLazWHZHmxITqpg/view?utm_content=DAGvx9Afafg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha483407058",
+			"category": "branding",
+			"status": "published",
+			"created_at": "2025-08-11T16:26:14.647Z",
+			"updated_at": "2025-08-11T16:26:14.647Z"
+		},
+		{
+			"id": 17,
+			"title": "Branding for smothy",
+			"description": "A sleek branding design for Smothy, a fintech app, featuring a modern logo, a vibrant color palette (#ff6f61, #ffd54f, #a5d6a7), the Open Sans typeface, and merchandise like a smart cardholder, phone wallet, and keychain, reflecting a secure and innovative financial identity.",
+			"image_url": "https://res.cloudinary.com/doyk6fhzm/image/upload/v1754998005/portfolio/x8eizt9idpnuuun3vtyc.jpg",
+			"tags": "Branding, Logo Design, Smothy, Color Palette, Typography, Merchandise Design, Fintech App, Secure Identity, Graphic Design",
+			"live_url": "https://www.canva.com/design/DAGvyHML8qg/kdLIq3gb6lw0TX144MpE5g/view?utm_content=DAGvyHML8qg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hbec4f3d127",
+			"figma_url": "https://www.canva.com/design/DAGvyHML8qg/kdLIq3gb6lw0TX144MpE5g/view?utm_content=DAGvyHML8qg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hbec4f3d127",
+			"category": "branding",
+			"status": "published",
+			"created_at": "2025-08-12T11:26:48.274Z",
+			"updated_at": "2025-08-12T11:26:48.274Z"
+		},
+		{
+			"id": 18,
+			"title": "Branding for Growin",
+			"description": "A dynamic branding design for Growin, featuring a vibrant logo, a green-inspired color palette (#4caf50, #81c784, #e8f5e9), the Gotham typeface, and merchandise including a man on his laptop scene, a smartwatch, a business card, and an app icon, reflecting a sustainable growth-focused identity.",
+			"image_url": "https://res.cloudinary.com/doyk6fhzm/image/upload/v1755007271/portfolio/qvsloty5qkr487hztqxn.jpg",
+			"tags": "Branding, Logo Design, Growin, Color Palette, Typography, Merchandise Design, Sustainable Branding, Growth Identity, Graphic Design",
+			"live_url": "https://www.canva.com/design/DAGv2-PxULU/rJWLXvaQOyeQi0OKYvsXow/view?utm_content=DAGv2-PxULU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6664e13d17",
+			"figma_url": "https://www.canva.com/design/DAGv2-PxULU/rJWLXvaQOyeQi0OKYvsXow/view?utm_content=DAGv2-PxULU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6664e13d17",
+			"category": "branding",
+			"status": "published",
+			"created_at": "2025-08-12T14:01:15.408Z",
+			"updated_at": "2025-08-12T14:01:15.408Z"
+		}
+	],
+	"testimonials": [
+		{
+			"id": 1,
+			"name": "Sarah Johnson",
+			"role": "CEO, TechStart Inc.",
+			"content": "André's design work exceeded our expectations. His attention to detail and creative approach transformed our digital presence completely.",
+			"rating": 5,
+			"avatar_url": "/placeholder.svg?height=60&width=60",
+			"created_at": "2025-07-29T13:56:09.331Z",
+			"updated_at": "2025-07-29T13:56:09.331Z"
+		},
+		{
+			"id": 2,
+			"name": "Michael Chen",
+			"role": "Product Manager, InnovateCorp",
+			"content": "Working with André was a game-changer for our project. His design expertise and user-centered approach are truly exceptional.",
+			"rating": 5,
+			"avatar_url": "/placeholder.svg?height=60&width=60",
+			"created_at": "2025-07-29T13:56:09.792Z",
+			"updated_at": "2025-07-29T13:56:09.792Z"
+		},
+		{
+			"id": 3,
+			"name": "Emily Rodriguez",
+			"role": "Marketing Director, BrandFlow",
+			"content": "André delivered a stunning brand identity that perfectly captured our vision. The design system is comprehensive and beautiful.",
+			"rating": 5,
+			"avatar_url": "/placeholder.svg?height=60&width=60",
+			"created_at": "2025-07-29T13:56:10.250Z",
+			"updated_at": "2025-07-29T13:56:10.250Z"
+		},
+		{
+			"id": 4,
+			"name": "David Thompson",
+			"role": "Founder, StartupHub",
+			"content": "The mobile app design André created for us has received incredible feedback from our users. Highly recommended!",
+			"rating": 5,
+			"avatar_url": "/placeholder.svg?height=60&width=60",
+			"created_at": "2025-07-29T13:56:10.708Z",
+			"updated_at": "2025-07-29T13:56:10.708Z"
+		},
+		{
+			"id": 5,
+			"name": "Lisa Wang",
+			"role": "CTO, DataFlow Solutions",
+			"content": "André's UI/UX design skills are impressive. He delivered a complex dashboard design that's both beautiful and functional.",
+			"rating": 5,
+			"avatar_url": "/placeholder.svg?height=60&width=60",
+			"created_at": "2025-07-29T13:56:11.167Z",
+			"updated_at": "2025-07-29T13:56:11.167Z"
+		},
+		{
+			"id": 6,
+			"name": "James Miller",
+			"role": "Creative Director, DesignStudio",
+			"content": "André's design sensibility is outstanding. He created a visual identity that perfectly represents our company.",
+			"rating": 5,
+			"avatar_url": "/placeholder.svg?height=60&width=60",
+			"created_at": "2025-07-29T13:56:11.625Z",
+			"updated_at": "2025-07-29T13:56:11.625Z"
+		}
+	]
+}

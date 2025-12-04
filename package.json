@@ -12,6 +12,7 @@
 		"migrate:deploy": "prisma migrate deploy",
 		"migrate:reset": "prisma migrate reset --force",
 		"migrate:studio": "prisma studio",
+		"seed": "node prisma/seedToMongo.js",
 		"postinstall": "prisma generate"
 	},
 	"dependencies": {

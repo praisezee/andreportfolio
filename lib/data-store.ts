@@ -51,43 +51,54 @@ function convertDates<T extends { createdAt: Date; updatedAt: Date }>(
 // Project operations
 export const projectStore = {
 	findMany: async (): Promise<ProjectWithDates[]> => {
+		await prisma.$connect();
+		console.log("connected");
 		const projects = await prisma.project.findMany({
 			orderBy: { createdAt: "desc" },
 		});
+		await prisma.$disconnect();
 		return projects.map(convertDates);
 	},
 
-	findUnique: async (id: number): Promise<ProjectWithDates | null> => {
+	findUnique: async (id: string): Promise<ProjectWithDates | null> => {
+		await prisma.$connect();
 		const project = await prisma.project.findUnique({
 			where: { id },
 		});
+		await prisma.$disconnect();
 		return project ? convertDates(project) : null;
 	},
 
 	create: async (
 		data: Omit<Project, "id" | "createdAt" | "updatedAt">
 	): Promise<ProjectWithDates> => {
+		await prisma.$connect();
 		const project = await prisma.project.create({
 			data,
 		});
+		await prisma.$disconnect();
 		return convertDates(project);
 	},
 
 	update: async (
-		id: number,
+		id: string,
 		data: Partial<Omit<Project, "id" | "createdAt" | "updatedAt">>
 	): Promise<ProjectWithDates> => {
+		await prisma.$connect();
 		const project = await prisma.project.update({
 			where: { id },
 			data,
 		});
+		await prisma.$disconnect();
 		return convertDates(project);
 	},
 
-	delete: async (id: number): Promise<ProjectWithDates> => {
+	delete: async (id: string): Promise<ProjectWithDates> => {
+		await prisma.$connect();
 		const project = await prisma.project.delete({
 			where: { id },
 		});
+		await prisma.$disconnect();
 		return convertDates(project);
 	},
 };
@@ -95,43 +106,53 @@ export const projectStore = {
 // Testimonial operations
 export const testimonialStore = {
 	findMany: async (): Promise<TestimonialWithDates[]> => {
+		await prisma.$connect();
 		const testimonials = await prisma.testimonial.findMany({
 			orderBy: { createdAt: "desc" },
 		});
+		await prisma.$disconnect();
 		return testimonials.map(convertDates);
 	},
 
-	findUnique: async (id: number): Promise<TestimonialWithDates | null> => {
+	findUnique: async (id: string): Promise<TestimonialWithDates | null> => {
+		await prisma.$connect();
 		const testimonial = await prisma.testimonial.findUnique({
 			where: { id },
 		});
+		await prisma.$disconnect();
 		return testimonial ? convertDates(testimonial) : null;
 	},
 
 	create: async (
 		data: Omit<Testimonial, "id" | "createdAt" | "updatedAt">
 	): Promise<TestimonialWithDates> => {
+		await prisma.$connect();
 		const testimonial = await prisma.testimonial.create({
 			data,
 		});
+		await prisma.$disconnect();
 		return convertDates(testimonial);
 	},
 
 	update: async (
-		id: number,
+		id: string,
 		data: Partial<Omit<Testimonial, "id" | "createdAt" | "updatedAt">>
 	): Promise<TestimonialWithDates> => {
+		await prisma.$connect();
 		const testimonial = await prisma.testimonial.update({
 			where: { id },
 			data,
 		});
+		await prisma.$disconnect();
 		return convertDates(testimonial);
 	},
 
-	delete: async (id: number): Promise<TestimonialWithDates> => {
+	delete: async (id: string): Promise<TestimonialWithDates> => {
+		await prisma.$connect();
 		const testimonial = await prisma.testimonial.delete({
 			where: { id },
 		});
+		await prisma.$disconnect();
 		return convertDates(testimonial);
 	},
 };
@@ -139,6 +160,7 @@ export const testimonialStore = {
 // Skill operations
 export const skillStore = {
 	findMany: async (): Promise<SkillCategoryWithSkills[]> => {
+		await prisma.$connect();
 		const categories = await prisma.skillCategory.findMany({
 			include: {
 				skills: {
@@ -151,14 +173,15 @@ export const skillStore = {
 			},
 			orderBy: { createdAt: "desc" },
 		});
-
+		await prisma.$disconnect();
 		return categories.map((category) => ({
 			...convertDates(category),
 			skills: category.skills,
 		}));
 	},
 
-	findUnique: async (id: number): Promise<SkillCategoryWithSkills | null> => {
+	findUnique: async (id: string): Promise<SkillCategoryWithSkills | null> => {
+		await prisma.$connect();
 		const category = await prisma.skillCategory.findUnique({
 			where: { id },
 			include: {
@@ -171,7 +194,7 @@ export const skillStore = {
 				},
 			},
 		});
-
+		await prisma.$disconnect();
 		return category
 			? {
 					...convertDates(category),
@@ -185,6 +208,7 @@ export const skillStore = {
 		icon: string;
 		skills: Array<{ name: string; level: number }>;
 	}): Promise<SkillCategoryWithSkills> => {
+		await prisma.$connect();
 		const category = await prisma.skillCategory.create({
 			data: {
 				category: data.category,
@@ -203,6 +227,7 @@ export const skillStore = {
 				},
 			},
 		});
+		await prisma.$disconnect();
 
 		return {
 			...convertDates(category),
@@ -211,13 +236,14 @@ export const skillStore = {
 	},
 
 	update: async (
-		id: number,
+		id: string,
 		data: {
 			category?: string;
 			icon?: string;
 			skills?: Array<{ name: string; level: number }>;
 		}
 	): Promise<SkillCategoryWithSkills> => {
+		await prisma.$connect();
 		// If skills are being updated, delete existing ones first
 		if (data.skills) {
 			await prisma.skill.deleteMany({
@@ -246,14 +272,15 @@ export const skillStore = {
 				},
 			},
 		});
-
+		await prisma.$disconnect();
 		return {
 			...convertDates(category),
 			skills: category.skills,
 		};
 	},
 
-	delete: async (id: number): Promise<SkillCategoryWithSkills> => {
+	delete: async (id: string): Promise<SkillCategoryWithSkills> => {
+		await prisma.$connect();
 		const category = await prisma.skillCategory.delete({
 			where: { id },
 			include: {
@@ -265,7 +292,7 @@ export const skillStore = {
 				},
 			},
 		});
-
+		await prisma.$disconnect();
 		return {
 			...convertDates(category),
 			skills: category.skills,
@@ -276,16 +303,19 @@ export const skillStore = {
 // User operations
 export const userStore = {
 	findUnique: async (username: string): Promise<UserWithDates | null> => {
+		await prisma.$connect();
 		const user = await prisma.user.findUnique({
 			where: { username },
 		});
+		await prisma.$disconnect();
 		return user ? convertDates(user) : null;
 	},
 
 	updateCredentials: async (
-		id: number,
+		id: string,
 		data: { username?: string; password?: string }
 	): Promise<UserWithDates> => {
+		await prisma.$connect();
 		const updateData: { username?: string; password?: string } = {};
 
 		if (data.username) {
@@ -300,7 +330,7 @@ export const userStore = {
 			where: { id },
 			data: updateData,
 		});
-
+		await prisma.$disconnect();
 		return convertDates(user);
 	},
 
@@ -308,10 +338,11 @@ export const userStore = {
 		username: string,
 		password: string
 	): Promise<boolean> => {
+		await prisma.$connect();
 		const user = await prisma.user.findUnique({
 			where: { username },
 		});
-
+		await prisma.$disconnect();
 		if (!user) {
 			return false;
 		}
