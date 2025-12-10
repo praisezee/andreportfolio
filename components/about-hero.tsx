@@ -37,7 +37,7 @@ export function AboutHero() {
                 {[
                   { icon: Palette, text: "Graphic Design Expert" },
                   { icon: Figma, text: "Figma Specialist" },
-                  { icon: FileCheck, text: "10+ Years Experience" },
+                  { icon: FileCheck, text: "5+ Years Experience" },
                 ].map((item, index) => (
                   <div
                     key={index}
